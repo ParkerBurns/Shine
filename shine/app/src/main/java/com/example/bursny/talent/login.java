@@ -17,19 +17,22 @@ public class login extends AppCompatActivity {
 
     private EditText username;
     private EditText password;
-
+    private Intent mainIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        mainIntent = new Intent(login.this, main.class);
+        mainIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+
 
         //check if logged in
 
         ParseUser currentUser = ParseUser.getCurrentUser();
 
         if (currentUser != null) {
-            //go to main app
+            startActivity(mainIntent);
         } //else continue to login page
 
 
@@ -72,6 +75,7 @@ public class login extends AppCompatActivity {
                 login_progress.dismiss();
                 if (e == null) {
                     //Successfully logged in
+                    startActivity(mainIntent);
                 } else {
                     Toast.makeText(login.this, e.toString(), Toast.LENGTH_LONG).show();
                 }
