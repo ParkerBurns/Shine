@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context="com.example.burnsy.talent.signup">
+    tools:context="com.example.burnsy.talent.signup"
+    android:background="@drawable/bg">
 
     <EditText
         android:id="@+id/username"
@@ -12,7 +13,13 @@
         android:maxLines="1"
         android:singleLine="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:textStyle="italic"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="175dp" />
 
     <EditText
         android:id="@+id/email"
@@ -21,7 +28,12 @@
         android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress"
+        android:fontFamily="arial"
+        android:textStyle="italic"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF" />
 
     <EditText
         android:id="@+id/password1"
@@ -30,7 +42,12 @@
         android:singleLine="true"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:textStyle="italic"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorHighlight="#FFFFFF" />
 
     <EditText
         android:id="@+id/password2"
@@ -39,13 +56,19 @@
         android:singleLine="true"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:textStyle="italic"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/signup_button"
-        android:hint="Create Account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="900px"
+        android:layout_height="120px"
+        android:background="@drawable/sign"
+        android:layout_marginLeft="35dp" />
 
 
 
