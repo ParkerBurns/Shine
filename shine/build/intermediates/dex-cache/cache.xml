@@ -2,53 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Parker\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="/Users/lukasvozenilek/shine/shine/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-d1b3f8f568c83424483b61ffbff31973d0258373.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\classes-6653a9c099701f81677cd9237cf3283d5ac6725e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\classes-48b9ecf21e7bf44ae85135d4ac14ffdecabf0856.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\Desktop\New folder\Shine\shine\app\libs\Parse-1.10.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a859414011ce2c18187acc83319688e6bd340635">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\Parse-1.10.2-ad3d77bf7065cbc43b11cb60aade9738e7f394a9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-92d6b30cf44986dd7ac2ca6e79b12478c4fd29e5.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-6268bea5f8d16f86a91ebe877c8161fb3791ba5c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="C:\Users\Parker\Desktop\New folder\Shine\shine\app\build\intermediates\pre-dexed\debug\classes-c7741a9ba9af22696dc2f22046e021d5c2779b88.jar" />
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="/Users/lukasvozenilek/shine/shine/app/build/intermediates/pre-dexed/debug/classes-2ef98d398f02a2dfe4c6dece208d899f6a23d0b1.jar" />
     </item>
 
 </items>

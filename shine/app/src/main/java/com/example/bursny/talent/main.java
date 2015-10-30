@@ -1,5 +1,8 @@
 package com.example.bursny.talent;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.Image;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,6 +14,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,8 +22,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.parse.ParseFile;
+import com.parse.ParseUser;
 
 public class main extends AppCompatActivity {
 
@@ -38,6 +46,8 @@ public class main extends AppCompatActivity {
      */
     private ViewPager mViewPager;
 
+    private ParseUser currentUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +65,9 @@ public class main extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        currentUser = ParseUser.getCurrentUser();
+
 
 
     }
@@ -119,11 +132,11 @@ public class main extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Discover";
+                    return "Competitions";
                 case 1:
-                    return "Feed";
+                    return "Vote";
                 case 2:
-                    return "Compete";
+                    return "Profile";
             }
             return null;
         }
@@ -152,16 +165,7 @@ public class main extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
             //BUNCH O SHIT
-
-            Button button = (Button) rootView.findViewById(R.id.buttton1);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(getActivity().getApplicationContext(), "Pushed", Toast.LENGTH_LONG).show();
-                }
-            });
-
-
+            ParseUser currentUser = ParseUser.getCurrentUser();
 
 
 

@@ -1,5 +1,6 @@
 package com.example.bursny.talent;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
-public class signup extends AppCompatActivity {
+public class signup extends Activity {
 
     private EditText username;
     private EditText password1;
