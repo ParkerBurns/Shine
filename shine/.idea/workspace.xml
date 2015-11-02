@@ -2062,7 +2062,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446425640967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New Login Screen Attempt 2">
+      <created>1446425652183</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446425652183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
