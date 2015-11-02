@@ -1,7 +1,241 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.bursny.talent.home">
+    android:layout_height="match_parent" tools:context="com.example.bursny.talent.home"
+    android:id="@+id/FrameLayout"
+    android:background="#F2F2F2"
+    >
 
 
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|top"
+        android:background="@drawable/homeIcon"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp" />
+
+    <ImageButton
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/voteIcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp" />
+
+    <ImageButton
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="right|top"
+        android:background="@drawable/profileIcon"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp" />
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="10dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/menu"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="90dp"
+        android:textSize="50dp"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Early Submissions"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="130dp"
+        android:textSize="19dp"
+        android:layout_marginLeft="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00"
+        android:id="@+id/textView6"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Early Submissions"
+        android:id="@+id/textView7"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="JOIN"
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="INFO"
+        android:id="@+id/button4"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="INFO"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="50dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="JOIN"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="left|top"
+        android:background="@drawable/movieIcon"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageView6"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/imageIcon"
+        android:layout_marginBottom="35dp" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="5dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="left|top"
+        android:background="#C9C9C9"
+        android:layout_marginTop="185dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_gravity="left|top" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="5dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="left|center_vertical"
+        android:background="#C9C9C9"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/soundIcon"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="115dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="JOIN"
+        android:id="@+id/button5"
+        android:layout_gravity="center"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="INFO"
+        android:id="@+id/button6"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="115dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00"
+        android:id="@+id/textView"
+        android:layout_gravity="right|center_vertical"
+        android:textSize="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Early Submissions"
+        android:id="@+id/textView4"
+        android:layout_gravity="right|center_vertical"
+        android:textSize="19dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="5dp"
+        android:id="@+id/imageView8"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#C9C9C9"
+        android:layout_marginBottom="145dp" />
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:text="Submit Topic Idea"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="85dp"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp" />
 
 </FrameLayout>
